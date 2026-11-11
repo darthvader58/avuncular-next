@@ -1,0 +1,4 @@
+import Link from 'next/link';
+import { ScrollGallery } from '@/components/ui/ScrollGallery';
+import { serviceSummaries as services } from '@/content/services';
+export function ServiceGrid() { return (<section className="services-section section-pad"><div className="shell"><div className="section-heading"><div><p className="eyebrow">What we do</p><h2>Nine service divisions.</h2></div><p>Choose a service to discuss your requirements with the team.</p></div><ScrollGallery label="Service divisions">{services.map(([no, title, desc, image]) => <article className="service-card" key={no}><img src={image} alt="" loading="lazy"/><div className="service-card-body"><span className="service-no">{no}</span><h3>{title}</h3><p>{desc}</p><Link href="/services" aria-label={`Learn about ${title}`}>Learn more <span>↗</span></Link></div></article>)}</ScrollGallery></div></section>); }

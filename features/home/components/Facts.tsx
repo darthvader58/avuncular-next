@@ -1,0 +1,1 @@
+export function Facts() { return (<section className="facts"><div className="shell facts-grid"><div><strong>2017</strong><span>Established in New Delhi</span></div><div><strong>9</strong><span>Service divisions</span></div><div><strong>5+</strong><span>Industry verticals served</span></div><div><strong>100%</strong><span>End-to-end support</span></div></div></section>); }

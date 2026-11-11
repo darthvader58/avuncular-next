@@ -1,0 +1,1 @@
+export const campusSlides = [['/images/Modern-IT-Training-Institute-Showcase.png', 'A practical learning environment at Technoglobe'], ['/images/Modern-IT-Training-Institute-Banner.png', 'Training and career guidance at Technoglobe'], ['/images/Practical-Skills-for-a-Brighter-Career.png', 'Practical skills for career development']] as const;

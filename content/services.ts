@@ -1,0 +1,12 @@
+export const serviceDetails = [['Corporate consultancy', 'Business setup and documentation support, compliance guidance, and operational planning.'], ['HR consultancy', 'Recruitment and staffing, HR policies and processes, payroll guidance, and team training.'], ['Education consultancy', 'Career and course counselling, college selection, admissions, scholarships, and documentation.'], ['Abroad jobs and education', 'Overseas education counselling, admission help, visa documentation guidance, and abroad job placement assistance.'], ['Skill India courses', 'Technical IT and computer skills alongside soft skills and vocational training.'], ['UG / PG distance programmes', 'Guidance on distance and online programmes, university selection, admissions, and enrolment documents.'], ['Export and import', 'Sourcing, supplier networks, trade documentation, compliance, freight, logistics, and customs coordination.'], ['Trading: iron, steel and agriculture', 'Sourcing and supply of iron and steel products, agricultural products, and bulk order coordination.'], ['Channel partner and distribution', 'Distribution and B2B collaboration in solar, EV, media, film, and documentary production.']] as const;
+export const serviceSummaries = [
+    ['01', 'Corporate consultancy', 'Business setup, documentation, compliance and operational guidance.', '/images/Untitled-design-15.png'],
+    ['02', 'HR consultancy', 'Recruitment, HR processes, payroll guidance and team training.', '/images/2.png'],
+    ['03', 'Education consultancy', 'Course counselling, college selection, admissions and scholarship documentation.', '/images/Untitled-design-18.png'],
+    ['04', 'Abroad jobs and education', 'Overseas education counselling, visa documentation guidance and job placement assistance.', '/images/1.png'],
+    ['05', 'Skill India courses', 'Technical, digital, computer, soft-skills and vocational training.', '/images/3.png'],
+    ['06', 'UG / PG distance programmes', 'Programme selection, admissions and enrolment documentation for distance and online study.', '/images/4.png'],
+    ['07', 'Export and import', 'Sourcing, trade documentation, compliance, freight and customs coordination.', '/images/5.png'],
+    ['08', 'Trading', 'Iron, steel and agricultural products, with bulk-order coordination.', '/images/6.png'],
+    ['09', 'Channel partnership', 'Distribution and B2B collaboration across solar, EV, media and film.', '/images/Untitled-design-17.png']
+] as const;

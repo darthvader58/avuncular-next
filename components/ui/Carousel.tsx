@@ -1,0 +1,4 @@
+'use client';
+import { useState } from 'react';
+import { campusSlides as slides } from '@/content/campus';
+export function Carousel() { const [active, setActive] = useState(0); const step = (n: number) => setActive((active + n + slides.length) % slides.length); return <div className="carousel"><img src={slides[active][0]} alt={slides[active][1]}/><div className="carousel-controls"><button onClick={() => step(-1)} aria-label="Previous slide">←</button><span>0{active + 1} <i>/</i> 0{slides.length}</span><button onClick={() => step(1)} aria-label="Next slide">→</button></div><div className="carousel-dots" role="group" aria-label="Choose a training photo">{slides.map((s, i) => <button aria-label={`Go to slide ${i + 1}`} aria-pressed={active === i} className={active === i ? 'active' : ''} key={s[0]} onClick={() => setActive(i)}/>)}</div></div>; }
